@@ -26,6 +26,11 @@
 	}
 	
 	center{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		align-content: space-between;
 		width: 500px;
 		height: 380px;
 		margin: 10px 30px 10px 29px;
@@ -54,29 +59,11 @@
 		margin-top: 15px;
 	}
 	
-	#leftpage{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		width: 240px; 
-		height:auto;
-		float: left;
-		margin: 0;
-		}
-	
-	#rightpage{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		width: 240px;
-		height: auto;
-		float: right;
-		margin: 0;
-		}
-	
 	block{
+		width: 240px;
 		display: block;
-		margin-bottom: 10px;
+		-moz-box-sizing: border-box;  
+		box-sizing: border-box;
 		background: #DCF0FC;
 		color: #003A6C;
 		border: 1px solid #999999;
