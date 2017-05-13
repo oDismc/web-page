@@ -1,19 +1,22 @@
 	section{
-		width: 558px;
-		height: 598px;
+		width: 560px;
+		height: 600px;
+		box-sizing: border-box;
 		background: #F8F8F8;
 		border: 1px dashed #C0C0C0;
-		margin: 0 auto;
+		margin: auto;
 	}
 	
 	header{
 		display: inline-block;
-		width: 498px;
-		height: 58px;
+		width: 500px;
+		height: 60px;
+		-moz-box-sizing: border-box;  
+		box-sizing: border-box; 
 		background: #FFFFFF;
 		color: #AEB2B6; 
 		border: 1px solid #AEB2B6;
-		margin: 9px 29px 10px 30px;
+		margin: 9px 30px 10px 29px;
 		text-align: center;
 	}
 	header > h2{
@@ -25,7 +28,7 @@
 	center{
 		width: 500px;
 		height: 380px;
-		margin: 0px 29px 0 30px;
+		margin: 10px 30px 10px 29px;
 		font: 16px 'Arial', sans-serif;
 	}
 	center > p{
@@ -35,12 +38,14 @@
 	
 	footer{
 		display: inline-block;
-		width: 498px;
-		height: 98px; 
+		width: 500px;
+		height: 100px;
+		-moz-box-sizing: border-box; /* Для Firefox */  
+		box-sizing: border-box; /* Ширина блока с полями */
 		background: #FFFFFF; 
 		color: #AEB2B6; 
 		border: 1px solid #AEB2B6;
-		margin: 10px 29px 11px 30px;
+		margin: 10px 30px 10px 29px;
 		text-align: center;
 		}
 	footer > h2{
@@ -49,24 +54,24 @@
 		margin-top: 15px;
 	}
 	
-	leftpage{
+	#leftpage{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		width: 240px; 
 		height:auto;
 		float: left;
-		margin-top: 10px;
+		margin: 0;
 		}
 	
-	rightpage{
+	#rightpage{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		width: 240px;
 		height: auto;
 		float: right;
-		margin-top: 10px;
+		margin: 0;
 		}
 	
 	block{
