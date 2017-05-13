@@ -1,5 +1,5 @@
 	section{
-		width: 560px;
+		max-width: 560px;
 		height: 600px;
 		box-sizing: border-box;
 		background: #F8F8F8;
@@ -11,7 +11,6 @@
 		display: inline-block;
 		width: 500px;
 		height: 60px;
-		-moz-box-sizing: border-box;  
 		box-sizing: border-box; 
 		background: #FFFFFF;
 		color: #AEB2B6; 
@@ -22,10 +21,10 @@
 	header > h2{
 		display: inline-block;
 		font: 16px 'Arial', sans-serif;
-		margin-top: 15px;
+		margin-top: 16px;
 	}
 	
-	center{
+	#mid{ 
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -36,33 +35,31 @@
 		margin: 10px 30px 10px 29px;
 		font: 16px 'Arial', sans-serif;
 	}
-	center > p{
+	#mid p{
 		text-align: center; 
-		margin-top: 15px;	
+		margin-top: 20px;	
 	}
 	
 	footer{
 		display: inline-block;
 		width: 500px;
 		height: 100px;
-		-moz-box-sizing: border-box; /* Для Firefox */  
-		box-sizing: border-box; /* Ширина блока с полями */
+		box-sizing: border-box; 
 		background: #FFFFFF; 
 		color: #AEB2B6; 
 		border: 1px solid #AEB2B6;
 		margin: 10px 30px 10px 29px;
 		text-align: center;
 		}
-	footer > h2{
+	footer h2{
 		display: inline-block;
 		font: 16px 'Arial', sans-serif;
-		margin-top: 15px;
+		margin-top: 16px;
 	}
 	
-	block{
+	#mid > div{
 		width: 240px;
 		display: block;
-		-moz-box-sizing: border-box;  
 		box-sizing: border-box;
 		background: #DCF0FC;
 		color: #003A6C;
