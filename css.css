@@ -1,6 +1,6 @@
 	section{
-		max-width: 560px;
-		height: 600px;
+		width: 560px;
+		height: auto;
 		box-sizing: border-box;
 		background: #F8F8F8;
 		border: 1px dashed #C0C0C0;
@@ -11,78 +11,87 @@
 		display: inline-block;
 		width: 500px;
 		height: 60px;
+		-moz-box-sizing: border-box;  
 		box-sizing: border-box; 
 		background: #FFFFFF;
 		color: #AEB2B6; 
 		border: 1px solid #AEB2B6;
-		margin: 9px 30px 10px 29px;
+		margin: 9px 30px 20px 29px;
 		text-align: center;
 	}
 	header > h2{
 		display: inline-block;
 		font: 16px 'Arial', sans-serif;
-		margin-top: 16px;
+		margin-top: 15px;
 	}
 	
-	#mid{ 
+	.container{
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: flex-start;
 		flex-wrap: wrap;
 		align-content: space-between;
 		width: 500px;
-		height: 380px;
-		margin: 10px 30px 10px 29px;
+		height: 400px;
+		margin: 0px 30px 0px 29px;
 		font: 16px 'Arial', sans-serif;
 	}
-	#mid p{
+	.container p{
 		text-align: center; 
-		margin-top: 20px;	
+		margin-top: 15px;	
 	}
 	
 	footer{
 		display: inline-block;
 		width: 500px;
-		height: 100px;
-		box-sizing: border-box; 
+		height: 100px;  
+		box-sizing: border-box; /* Ширина блока с полями */
 		background: #FFFFFF; 
 		color: #AEB2B6; 
 		border: 1px solid #AEB2B6;
-		margin: 10px 30px 10px 29px;
+		margin: 0px 30px 10px 29px;
 		text-align: center;
 		}
-	footer h2{
+	footer > h2{
 		display: inline-block;
 		font: 16px 'Arial', sans-serif;
-		margin-top: 16px;
+		margin-top: 15px;
 	}
 	
-	#mid > div{
+	.block{
 		width: 240px;
 		display: block;
 		box-sizing: border-box;
 		background: #DCF0FC;
-		color: #003A6C;
+		color: #003A6C;	
+		margin-bottom: 10px;
 		border: 1px solid #999999;
 	}
 	#b1{
-		height: 108px;		
-	}
-	#b4{
-		height: 138px;		
-	}
-	#b6{
-		height: 108px;		
+		order: 0;
+		height: 110px;		
 	}
 	#b2{
-		height: 68px;		
+		order: 5;
+		height: 70px;		
 	}
 	#b3{
-		height: 108px;		
+		order: 5;
+		height: 110px;		
+	}
+	#b4{
+		order: 0;
+		height: 140px;		
 	}
 	#b5{
-		height: 98px;		
+		order: 5;
+		height: 100px;		
+	}
+	#b6{
+		order: 0;
+		height: 110px;		
 	}
 	#b7{
-		height: 68px;		
+		order: 5;
+		height: 70px;		
 	}
